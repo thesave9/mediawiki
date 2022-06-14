@@ -5,7 +5,7 @@ name: CI
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: runs-on: [self-hosted, linux, x64]
     
 #      - uses: actions/checkout@v3
 
